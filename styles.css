@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 40px 65px 0 65px;
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F7F7F7;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #146140;
+    border-radius: 10000px;
+}
